@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Caesar cipher </h1>
+        <p>Move: </p>
+        <input type="number" id="move">
+        <br>
+        <p>Your Text :</p>
+        <textarea name="cipher" id="cipher" cols="30" rows="10"></textarea>
+        <br>
+        <button id="cipherresult" onclick="CipherResult()">Encrypt</button>
+        <br>
+        <p>Cipher  result :</p>
+        <textarea name="decipher" id="decipher" cols="30" rows="10"></textarea>
+        <br>
+        <button id="decipherresult" onclick="DecipherResult()">Decrypt</button>
+        <p id="wrong"></p>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
